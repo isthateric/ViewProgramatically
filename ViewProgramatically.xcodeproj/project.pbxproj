@@ -7,21 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CD8689B721EE55FA009039ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8689B621EE55FA009039ED /* AppDelegate.swift */; };
-		CD8689B921EE55FB009039ED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8689B821EE55FB009039ED /* ViewController.swift */; };
-		CD8689BC21EE55FB009039ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD8689BA21EE55FB009039ED /* Main.storyboard */; };
+		CD8689B721EE55FA009039ED /* ViewProgram.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8689B621EE55FA009039ED /* ViewProgram.swift */; };
 		CD8689BE21EE5602009039ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD8689BD21EE5602009039ED /* Assets.xcassets */; };
 		CD8689C121EE5602009039ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD8689BF21EE5602009039ED /* LaunchScreen.storyboard */; };
+		CD8689CD21EFB9EE009039ED /* video4.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = CD8689C821EFB9EE009039ED /* video4.mp4 */; };
+		CD8689CE21EFB9EE009039ED /* video5.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = CD8689C921EFB9EE009039ED /* video5.mp4 */; };
+		CD8689CF21EFB9EE009039ED /* video3.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = CD8689CA21EFB9EE009039ED /* video3.mp4 */; };
+		CD8689D021EFB9EE009039ED /* video1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = CD8689CB21EFB9EE009039ED /* video1.mp4 */; };
+		CD8689D121EFB9EE009039ED /* video2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = CD8689CC21EFB9EE009039ED /* video2.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CD8689B321EE55FA009039ED /* ViewProgramatically.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViewProgramatically.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		CD8689B621EE55FA009039ED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CD8689B821EE55FB009039ED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		CD8689BB21EE55FB009039ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CD8689B621EE55FA009039ED /* ViewProgram.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewProgram.swift; sourceTree = "<group>"; };
 		CD8689BD21EE5602009039ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CD8689C021EE5602009039ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CD8689C221EE5602009039ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD8689C821EFB9EE009039ED /* video4.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video4.mp4; sourceTree = "<group>"; };
+		CD8689C921EFB9EE009039ED /* video5.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video5.mp4; sourceTree = "<group>"; };
+		CD8689CA21EFB9EE009039ED /* video3.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video3.mp4; sourceTree = "<group>"; };
+		CD8689CB21EFB9EE009039ED /* video1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video1.mp4; sourceTree = "<group>"; };
+		CD8689CC21EFB9EE009039ED /* video2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video2.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +46,7 @@
 			children = (
 				CD8689B521EE55FA009039ED /* ViewProgramatically */,
 				CD8689B421EE55FA009039ED /* Products */,
+				CD8689D421EFDFDE009039ED /* Videos */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +61,24 @@
 		CD8689B521EE55FA009039ED /* ViewProgramatically */ = {
 			isa = PBXGroup;
 			children = (
-				CD8689B621EE55FA009039ED /* AppDelegate.swift */,
-				CD8689B821EE55FB009039ED /* ViewController.swift */,
-				CD8689BA21EE55FB009039ED /* Main.storyboard */,
+				CD8689B621EE55FA009039ED /* ViewProgram.swift */,
 				CD8689BD21EE5602009039ED /* Assets.xcassets */,
 				CD8689BF21EE5602009039ED /* LaunchScreen.storyboard */,
 				CD8689C221EE5602009039ED /* Info.plist */,
 			);
 			path = ViewProgramatically;
+			sourceTree = "<group>";
+		};
+		CD8689D421EFDFDE009039ED /* Videos */ = {
+			isa = PBXGroup;
+			children = (
+				CD8689CB21EFB9EE009039ED /* video1.mp4 */,
+				CD8689CC21EFB9EE009039ED /* video2.mp4 */,
+				CD8689C821EFB9EE009039ED /* video4.mp4 */,
+				CD8689CA21EFB9EE009039ED /* video3.mp4 */,
+				CD8689C921EFB9EE009039ED /* video5.mp4 */,
+			);
+			path = Videos;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,9 +139,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD8689D121EFB9EE009039ED /* video2.mp4 in Resources */,
+				CD8689CD21EFB9EE009039ED /* video4.mp4 in Resources */,
+				CD8689CE21EFB9EE009039ED /* video5.mp4 in Resources */,
 				CD8689C121EE5602009039ED /* LaunchScreen.storyboard in Resources */,
+				CD8689D021EFB9EE009039ED /* video1.mp4 in Resources */,
+				CD8689CF21EFB9EE009039ED /* video3.mp4 in Resources */,
 				CD8689BE21EE5602009039ED /* Assets.xcassets in Resources */,
-				CD8689BC21EE55FB009039ED /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,22 +156,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD8689B921EE55FB009039ED /* ViewController.swift in Sources */,
-				CD8689B721EE55FA009039ED /* AppDelegate.swift in Sources */,
+				CD8689B721EE55FA009039ED /* ViewProgram.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		CD8689BA21EE55FB009039ED /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CD8689BB21EE55FB009039ED /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		CD8689BF21EE5602009039ED /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -283,6 +295,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MJFJ4F2LJV;
 				INFOPLIST_FILE = ViewProgramatically/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -300,6 +313,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MJFJ4F2LJV;
 				INFOPLIST_FILE = ViewProgramatically/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
